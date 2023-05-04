@@ -1,0 +1,8 @@
+/* gvonz-regular - latin */
+@font-face {
+  font-family: 'Gvonz Regular';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Gvonz"), url("/fonts/gvonz-regular.woff") format("woff"); }
+
+/*# sourceMappingURL=style.css.map */

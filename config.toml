@@ -1,0 +1,52 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "RSPCT.AI : AI Awards Program"
+themesDir = "themes"
+theme = "hugo-hero-theme"
+assetDir = "/assets"
+
+[module]
+  [module.hugoVersion]
+    extended = true
+    min = "0.92.0"
+    
+[params]
+  google_analytics_id=""
+
+  customtextFontFamily = "Lato"
+  customheadingFontFamily = "Gvonz"
+
+  [params.logo]
+    mobile = "images/logo-mobile.png"
+    mobile_height = "36px"
+    mobile_width = "36px"
+    desktop = "images/logo.png"
+    desktop_height = "29px"
+    desktop_width = "217px"
+    alt = "RSPCT.AI Awards"
+
+  [params.homepage_meta_tags]
+    meta_description = "Welcome to the AI Skills and Accomplishments Awards, a program that celebrates the remarkable achievements of individuals around the world who are learning and creating with modern AI tools."
+    meta_og_title = "Welcome to the AI Skills and Accomplishments Awards, a program that celebrates the remarkable achievements of individuals around the world who are learning and creating with modern AI tools."
+    meta_og_type = "website"
+    meta_og_url = "https://hugo-hero.netlify.app"
+    meta_og_image = "https://res.cloudinary.com/dkeyotbpz/image/upload/v1683047159/aiawards-meta_mporow.png"
+    meta_og_description = "Welcome to the AI Skills and Accomplishments Awards, a program that celebrates the remarkable achievements of individuals around the world who are learning and creating with modern AI tools."
+    meta_twitter_card = "Welcome to the AI Skills and Accomplishments Awards, a program that celebrates the remarkable achievements of individuals around the world who are learning and creating with modern AI tools."
+    meta_twitter_site = "@theCuriousMonk"
+    meta_twitter_creator = "@theCuriousMonk"
+
+
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 1
+
+[[menu.main]]
+    name = "Contact"
+    url = "/contact/"
+    weight = 2
+
+[permalinks]
+  post = "/:year/:month/:day/:slug/"
+  pages = "/:filename/"
